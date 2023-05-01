@@ -2,9 +2,9 @@ const menorValor = 1;
 const maiorValor = 1000;
 const numeroSecreto = gerarNumeroAleatorio();
 
-function gerarNumeroAleatorio() {
-    return parseInt(Math.random() * maiorValor + 1);
-}
+function generateRandomNumber() {
+    return Math.truncate(Math.random() * (max - 1)) + 1 
+  }
 
 const elementoMenorValor = document.getElementById('menor-valor');
 elementoMenorValor.innerHTML = menorValor;
