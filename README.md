@@ -9,4 +9,4 @@ Este projeto foi feito em um dos cursos de JS da Alura.
 
 ## Feito por:
 
-### Juarez Sant'Ana!
+### Juarez Sant'Ana.
